@@ -6,7 +6,7 @@ module.exports = {
   plugins: ['simple-import-sort'],
   rules: {
     curly: 'error',
-    'object-curly-spacing': ['error', 'always'],
+    'object-curly-spacing': 'off',
     '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-unsafe-member-access': 'off',
