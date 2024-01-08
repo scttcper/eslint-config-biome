@@ -22,8 +22,6 @@
     "provenance": true
   },
   "release": {
-    "branches": [
-      "main"
-    ]
+    "branches": ["main"]
   }
 }
