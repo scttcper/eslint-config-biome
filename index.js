@@ -23,6 +23,9 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-imports': 'off',
     '@typescript-eslint/object-curly-spacing': 'off',
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/quotes": "off",
+    "operator-linebreak": "off",
 
     /** Requires strictNullChecks kinda annoying */
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
