@@ -26,6 +26,7 @@ module.exports = {
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/quotes": "off",
     "operator-linebreak": "off",
+    "no-multiple-empty-lines": "off",
 
     /** Requires strictNullChecks kinda annoying */
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
