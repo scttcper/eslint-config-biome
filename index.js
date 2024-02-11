@@ -1,8 +1,5 @@
 module.exports = {
-  extends: [
-    'xo',
-    'xo-typescript/space',
-  ],
+  extends: ['xo', 'xo-typescript/space'],
   plugins: ['simple-import-sort'],
   rules: {
     curly: 'error',
@@ -23,10 +20,10 @@ module.exports = {
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-imports': 'off',
     '@typescript-eslint/object-curly-spacing': 'off',
-    "@typescript-eslint/indent": "off",
-    "@typescript-eslint/quotes": "off",
-    "operator-linebreak": "off",
-    "no-multiple-empty-lines": "off",
+    '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/quotes': 'off',
+    'operator-linebreak': 'off',
+    'no-multiple-empty-lines': 'off',
 
     /** Requires strictNullChecks kinda annoying */
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
@@ -86,6 +83,10 @@ module.exports = {
             message: 'Use `symbol` instead.',
             fixWith: 'symbol',
           },
+          BigInt: {
+            message: 'Use `bigint` instead.',
+            fixWith: 'bigint',
+          },
           Object: {
             message:
               'The `Object` type is mostly the same as `unknown`. You probably want `Record<string, unknown>` instead. See https://github.com/typescript-eslint/typescript-eslint/pull/848',
@@ -102,6 +103,11 @@ module.exports = {
             fixWith: 'Record<string, unknown>',
           },
           Function: 'Use a specific function type instead, like `() => void`.',
+          Buffer: {
+            message:
+              'Use Uint8Array instead. See: https://sindresorhus.com/blog/goodbye-nodejs-buffer',
+            suggest: ['Uint8Array'],
+          },
           '[]': "Don't use the empty array type `[]`. It only allows empty arrays. Use `SomeType[]` instead.",
           '[[]]':
             "Don't use `[[]]`. It only allows an array with a single element which is an empty array. Use `SomeType[][]` instead.",
