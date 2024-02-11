@@ -3,7 +3,7 @@
   "version": "0.0.0-placeholder",
   "description": "eslint typescript config",
   "scripts": {},
-  "files": ["index.js"],
+  "files": ["index.js", "biome.json"],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
