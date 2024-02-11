@@ -2,7 +2,6 @@ module.exports = {
   extends: ['xo', 'xo-typescript/space'],
   plugins: ['simple-import-sort'],
   rules: {
-    curly: 'error',
     'object-curly-spacing': 'off',
     '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
@@ -117,5 +116,18 @@ module.exports = {
         },
       },
     ],
+
+    // Biome disabled - this run via biome lint
+    'no-control-regex': 'off',
+    'one-var': 'off',
+    'constructor-super': 'off',
+    'getter-return': 'off',
+    'no-unreachable': 'off',
+    'no-regex-spaces': 'off',
+    'no-unsafe-optional-chaining': 'off',
+    'no-dupe-keys': 'off',
+    'no-this-before-super': 'off',
+    curly: 'off',
+    'no-import-assign': 'off',
   },
 };

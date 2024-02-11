@@ -4,7 +4,29 @@
     "enabled": false
   },
   "linter": {
-    "enabled": false
+    "enabled": true,
+    "rules": {
+      "suspicious": {
+        "noControlCharactersInRegex": "error",
+        "useGetterReturn": "error",
+        "noDuplicateObjectKeys": "error",
+        "noImportAssign": "error"
+      },
+      "complexity": {
+        "noMultipleSpacesInRegularExpressionLiterals": "error"
+      },
+      "correctness": {
+        "noUnreachable": "error",
+        "noInvalidConstructorSuper": "error",
+        "noUnsafeOptionalChaining": "error",
+        "noUnreachableSuper": "error",
+        "noUnsafeFinally": "error"
+      },
+      "style": {
+        "useSingleVarDeclarator": "error",
+        "useBlockStatements": "error"
+      }
+    }
   },
   "formatter": {
     "enabled": true,
