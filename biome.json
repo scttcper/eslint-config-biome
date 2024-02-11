@@ -10,7 +10,8 @@
         "noControlCharactersInRegex": "error",
         "useGetterReturn": "error",
         "noDuplicateObjectKeys": "error",
-        "noImportAssign": "error"
+        "noImportAssign": "error",
+        "noDebugger": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error"

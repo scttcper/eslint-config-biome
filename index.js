@@ -129,5 +129,6 @@ module.exports = {
     'no-this-before-super': 'off',
     curly: 'off',
     'no-import-assign': 'off',
+    'no-debugger': 'off',
   },
 };
