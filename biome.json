@@ -41,13 +41,13 @@
   "json": {
     "formatter": {
       "enabled": true,
-      "lineWidth": 90
+      "lineWidth": 100
     }
   },
   "javascript": {
     "formatter": {
       "enabled": true,
-      "lineWidth": 90,
+      "lineWidth": 100,
       "quoteStyle": "single",
       "jsxQuoteStyle": "double",
       "quoteProperties": "asNeeded",
