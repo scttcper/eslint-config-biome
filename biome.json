@@ -6,6 +6,7 @@
   "linter": {
     "enabled": true,
     "rules": {
+      "recommended": false,
       "suspicious": {
         "noControlCharactersInRegex": "error",
         "useGetterReturn": "error",
