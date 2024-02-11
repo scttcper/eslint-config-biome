@@ -130,5 +130,6 @@ module.exports = {
     curly: 'off',
     'no-import-assign': 'off',
     'no-debugger': 'off',
+    'no-shadow-restricted-names': 'off',
   },
 };

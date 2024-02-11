@@ -11,7 +11,8 @@
         "useGetterReturn": "error",
         "noDuplicateObjectKeys": "error",
         "noImportAssign": "error",
-        "noDebugger": "error"
+        "noDebugger": "error",
+        "noShadowRestrictedNames": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error"
