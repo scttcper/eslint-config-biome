@@ -28,6 +28,9 @@
       "style": {
         "useSingleVarDeclarator": "error",
         "useBlockStatements": "error"
+      },
+      "nursery": {
+        "noGlobalAssign": "error"
       }
     }
   },

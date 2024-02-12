@@ -131,5 +131,7 @@ module.exports = {
     'no-import-assign': 'off',
     'no-debugger': 'off',
     'no-shadow-restricted-names': 'off',
+    'no-global-assign': 'off',
+    'object-curly-newline': 'off',
   },
 };
