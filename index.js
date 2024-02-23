@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   extends: ['xo', 'xo-typescript/space'],
   plugins: ['simple-import-sort'],
@@ -29,6 +31,14 @@ module.exports = {
     'capitalized-comments': 'off',
     'no-warning-comments': 'off',
     complexity: 'off',
+
+    /**
+     * This is kinda slow, and I don't think its always useful
+     * like when a function just returns the promise
+     *
+     * Maybe turn it back on later
+     */
+    '@typescript-eslint/promise-function-async': 'off',
 
     /**
      * Better import sorting
