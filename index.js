@@ -156,5 +156,12 @@ module.exports = {
     'prefer-numeric-literals': 'off',
     'no-self-assign': 'off',
     'no-const-assign': 'off',
+    'require-yield': 'off',
+    'no-class-assign': 'off',
+    'no-sequences': 'off',
+    'no-unneeded-ternary': 'off',
+    'no-lonely-if': 'off',
+    'no-unused-labels': 'off',
+    'for-direction': 'off',
   },
 };

@@ -14,7 +14,8 @@
         "noImportAssign": "error",
         "noDebugger": "error",
         "noShadowRestrictedNames": "error",
-        "noSelfCompare": "error"
+        "noSelfCompare": "error",
+        "noClassAssign": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error",
@@ -31,7 +32,10 @@
         "noGlobalObjectCalls": "error",
         "noSetterReturn": "error",
         "noSelfAssign": "error",
-        "noConstAssign": "error"
+        "noConstAssign": "error",
+        "useYield": "error",
+        "noUnusedLabels": "error",
+        "useValidForDirection": "error"
       },
       "style": {
         "useSingleVarDeclarator": "error",
@@ -39,10 +43,13 @@
         "useConst": "error",
         "noRestrictedGlobals": "error",
         "useExponentiationOperator": "error",
-        "useNumericLiterals": "error"
+        "useNumericLiterals": "error",
+        "noCommaOperator": "error",
+        "useCollapsedElseIf": "error"
       },
       "nursery": {
-        "noGlobalAssign": "error"
+        "noGlobalAssign": "error",
+        "noUselessTernary": "error"
       }
     }
   },
