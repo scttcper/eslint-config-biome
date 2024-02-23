@@ -15,12 +15,28 @@
         "noDebugger": "error",
         "noShadowRestrictedNames": "error",
         "noSelfCompare": "error",
-        "noClassAssign": "error"
+        "noClassAssign": "error",
+        "useDefaultSwitchClauseLast": "error",
+        "noCatchAssign": "error",
+        "noFallthroughSwitchClause": "error",
+        "noPrototypeBuiltins": "error",
+        "noExtraNonNullAssertion": "error",
+        "noRedeclare": "error",
+        "noUnsafeDeclarationMerging": "error",
+        "useNamespaceKeyword": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error",
         "useArrowFunction": "error",
-        "useRegexLiterals": "error"
+        "useRegexLiterals": "error",
+        "noUselessCatch": "error",
+        "noVoid": "error",
+        "noStaticOnlyClass": "error",
+        "noUselessThisAlias": "error",
+        "noUselessTypeConstraint": "error",
+        "noUselessConstructor": "error",
+        "noUselessEmptyExport": "error",
+        "useOptionalChain": "error"
       },
       "correctness": {
         "noUnreachable": "error",
@@ -35,7 +51,9 @@
         "noConstAssign": "error",
         "useYield": "error",
         "noUnusedLabels": "error",
-        "useValidForDirection": "error"
+        "useValidForDirection": "error",
+        "noEmptyCharacterClassInRegex": "error",
+        "useIsNan": "error"
       },
       "style": {
         "useSingleVarDeclarator": "error",
@@ -45,7 +63,11 @@
         "useExponentiationOperator": "error",
         "useNumericLiterals": "error",
         "noCommaOperator": "error",
-        "useCollapsedElseIf": "error"
+        "useCollapsedElseIf": "error",
+        "noInferrableTypes": "error",
+        "noNamespace": "error",
+        "useAsConstAssertion": "error",
+        "useLiteralEnumMembers": "error"
       },
       "nursery": {
         "noGlobalAssign": "error",
