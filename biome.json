@@ -13,21 +13,28 @@
         "noDuplicateObjectKeys": "error",
         "noImportAssign": "error",
         "noDebugger": "error",
-        "noShadowRestrictedNames": "error"
+        "noShadowRestrictedNames": "error",
+        "noSelfCompare": "error"
       },
       "complexity": {
-        "noMultipleSpacesInRegularExpressionLiterals": "error"
+        "noMultipleSpacesInRegularExpressionLiterals": "error",
+        "useArrowFunction": "error"
       },
       "correctness": {
         "noUnreachable": "error",
         "noInvalidConstructorSuper": "error",
         "noUnsafeOptionalChaining": "error",
         "noUnreachableSuper": "error",
-        "noUnsafeFinally": "error"
+        "noUnsafeFinally": "error",
+        "noConstantCondition": "error",
+        "noGlobalObjectCalls": "error",
+        "noSetterReturn": "error"
       },
       "style": {
         "useSingleVarDeclarator": "error",
-        "useBlockStatements": "error"
+        "useBlockStatements": "error",
+        "useConst": "error",
+        "noRestrictedGlobals": "error"
       },
       "nursery": {
         "noGlobalAssign": "error"

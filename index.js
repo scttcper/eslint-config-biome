@@ -143,5 +143,13 @@ module.exports = {
     'no-shadow-restricted-names': 'off',
     'no-global-assign': 'off',
     'object-curly-newline': 'off',
+    'prefer-const': 'off',
+    'no-restricted-globals': 'off',
+    'no-constant-condition': 'off',
+    'no-unsafe-finally': 'off',
+    'no-obj-calls': 'off',
+    'prefer-arrow-callback': 'off',
+    'no-self-compare': 'off',
+    'no-setter-return': 'off',
   },
 };
