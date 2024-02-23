@@ -30,7 +30,8 @@
         "noConstantCondition": "error",
         "noGlobalObjectCalls": "error",
         "noSetterReturn": "error",
-        "noSelfAssign": "error"
+        "noSelfAssign": "error",
+        "noConstAssign": "error"
       },
       "style": {
         "useSingleVarDeclarator": "error",

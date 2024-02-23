@@ -155,5 +155,6 @@ module.exports = {
     'prefer-regex-literals': 'off',
     'prefer-numeric-literals': 'off',
     'no-self-assign': 'off',
+    'no-const-assign': 'off',
   },
 };
