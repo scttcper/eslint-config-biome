@@ -18,7 +18,8 @@
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error",
-        "useArrowFunction": "error"
+        "useArrowFunction": "error",
+        "useRegexLiterals": "error"
       },
       "correctness": {
         "noUnreachable": "error",
@@ -28,13 +29,16 @@
         "noUnsafeFinally": "error",
         "noConstantCondition": "error",
         "noGlobalObjectCalls": "error",
-        "noSetterReturn": "error"
+        "noSetterReturn": "error",
+        "noSelfAssign": "error"
       },
       "style": {
         "useSingleVarDeclarator": "error",
         "useBlockStatements": "error",
         "useConst": "error",
-        "noRestrictedGlobals": "error"
+        "noRestrictedGlobals": "error",
+        "useExponentiationOperator": "error",
+        "useNumericLiterals": "error"
       },
       "nursery": {
         "noGlobalAssign": "error"

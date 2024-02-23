@@ -151,5 +151,9 @@ module.exports = {
     'prefer-arrow-callback': 'off',
     'no-self-compare': 'off',
     'no-setter-return': 'off',
+    'prefer-exponentiation-operator': 'off',
+    'prefer-regex-literals': 'off',
+    'prefer-numeric-literals': 'off',
+    'no-self-assign': 'off',
   },
 };
