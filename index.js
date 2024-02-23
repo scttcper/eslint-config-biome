@@ -171,6 +171,7 @@ module.exports = {
     'no-fallthrough': 'off',
     'no-prototype-builtins': 'off',
     'use-isnan': 'off',
+    'valid-typeof': 'off',
     '@typescript-eslint/no-extra-non-null-assertion': 'off',
     '@typescript-eslint/no-extraneous-class': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',

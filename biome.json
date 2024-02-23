@@ -23,7 +23,8 @@
         "noExtraNonNullAssertion": "error",
         "noRedeclare": "error",
         "noUnsafeDeclarationMerging": "error",
-        "useNamespaceKeyword": "error"
+        "useNamespaceKeyword": "error",
+        "useValidTypeof": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error",
