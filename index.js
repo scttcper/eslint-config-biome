@@ -26,6 +26,9 @@ module.exports = {
     'operator-linebreak': 'off',
     'no-multiple-empty-lines': 'off',
 
+    // formatting conflict
+    'array-element-newline': 'off',
+
     /** Requires strictNullChecks kinda annoying */
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
     'capitalized-comments': 'off',
