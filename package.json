@@ -2,7 +2,9 @@
   "name": "@ctrl/eslint-config-biome",
   "version": "0.0.0-placeholder",
   "description": "eslint typescript config",
-  "scripts": {},
+  "scripts": {
+    "test": "biome check ."
+  },
   "exports": {
     ".": "./index.js",
     "./biome": "./biome.json"

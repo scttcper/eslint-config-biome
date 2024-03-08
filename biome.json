@@ -25,7 +25,8 @@
         "noUnsafeDeclarationMerging": "error",
         "useNamespaceKeyword": "error",
         "useValidTypeof": "error",
-        "noGlobalAssign": "error"
+        "noGlobalAssign": "error",
+        "noMisleadingCharacterClass": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error",
@@ -38,7 +39,8 @@
         "noUselessTypeConstraint": "error",
         "noUselessConstructor": "error",
         "noUselessEmptyExport": "error",
-        "useOptionalChain": "error"
+        "useOptionalChain": "error",
+        "noUselessLoneBlockStatements": "error"
       },
       "correctness": {
         "noUnreachable": "error",
@@ -70,6 +72,9 @@
         "noNamespace": "error",
         "useAsConstAssertion": "error",
         "useLiteralEnumMembers": "error"
+      },
+      "security": {
+        "noGlobalEval": "error"
       },
       "nursery": {
         "noUselessTernary": "error"
