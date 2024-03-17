@@ -35,6 +35,9 @@ module.exports = {
     'no-warning-comments': 'off',
     complexity: 'off',
 
+    // Conflicts with formatting
+    'no-mixed-operators': 'off',
+
     /**
      * This is kinda slow, and I don't think its always useful
      * like when a function just returns the promise
