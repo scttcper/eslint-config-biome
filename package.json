@@ -11,15 +11,15 @@
   },
   "files": ["index.js", "biome.json"],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
     "eslint-config-xo": "^0.44.0",
     "eslint-config-xo-typescript": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^12.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.1"
+    "@biomejs/biome": "1.6.2"
   },
   "repository": "scttcper/eslint-config-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",
