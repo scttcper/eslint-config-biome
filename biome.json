@@ -92,7 +92,8 @@
         "useButtonType": "error"
       },
       "nursery": {
-        "noUselessTernary": "error"
+        "noUselessTernary": "error",
+        "useSortedClasses": "error"
       }
     }
   },
