@@ -26,7 +26,10 @@
         "useNamespaceKeyword": "error",
         "useValidTypeof": "error",
         "noGlobalAssign": "error",
-        "noMisleadingCharacterClass": "error"
+        "noMisleadingCharacterClass": "error",
+        "noDuplicateJsxProps": "error",
+        "noCommentText": "error",
+        "noArrayIndexKey": "error"
       },
       "complexity": {
         "noMultipleSpacesInRegularExpressionLiterals": "error",
@@ -40,7 +43,8 @@
         "noUselessConstructor": "error",
         "noUselessEmptyExport": "error",
         "useOptionalChain": "error",
-        "noUselessLoneBlockStatements": "error"
+        "noUselessLoneBlockStatements": "error",
+        "noUselessFragments": "error"
       },
       "correctness": {
         "noUnreachable": "error",
@@ -57,7 +61,10 @@
         "noUnusedLabels": "error",
         "useValidForDirection": "error",
         "noEmptyCharacterClassInRegex": "error",
-        "useIsNan": "error"
+        "useIsNan": "error",
+        "noChildrenProp": "error",
+        "noVoidElementsWithChildren": "error",
+        "useExhaustiveDependencies": "error"
       },
       "style": {
         "useSingleVarDeclarator": "error",
@@ -71,10 +78,18 @@
         "noInferrableTypes": "error",
         "noNamespace": "error",
         "useAsConstAssertion": "error",
-        "useLiteralEnumMembers": "error"
+        "useLiteralEnumMembers": "error",
+        "useSelfClosingElements": "error",
+        "noImplicitBoolean": "error"
       },
       "security": {
-        "noGlobalEval": "error"
+        "noGlobalEval": "error",
+        "noDangerouslySetInnerHtml": "error",
+        "noDangerouslySetInnerHtmlWithChildren": "error"
+      },
+      "a11y": {
+        "noBlankTarget": "error",
+        "useButtonType": "error"
       },
       "nursery": {
         "noUselessTernary": "error"

@@ -28,6 +28,7 @@ module.exports = {
 
     // formatting conflict
     'array-element-newline': 'off',
+    'jsx-quotes': 'off',
 
     /** Requires strictNullChecks kinda annoying */
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
@@ -37,6 +38,7 @@ module.exports = {
 
     // Conflicts with formatting
     'no-mixed-operators': 'off',
+    'no-mixed-spaces-and-tabs': 'off',
 
     /**
      * This is kinda slow, and I don't think its always useful
