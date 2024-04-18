@@ -58,6 +58,7 @@ module.exports = {
     eqeqeq: 'off',
     '@typescript-eslint/no-dupe-class-members': 'off',
     '@typescript-eslint/parameter-properties': 'off',
+    'no-with': 'off',
 
     // formatting conflict
     'array-element-newline': 'off',
@@ -230,6 +231,6 @@ module.exports = {
     '@typescript-eslint/prefer-as-const': 'off',
     '@typescript-eslint/prefer-literal-enum-member': 'off',
     '@typescript-eslint/prefer-namespace-keyword': 'off',
-    'typescript-eslint/prefer-optional-chain': 'off',
+    '@typescript-eslint/prefer-optional-chain': 'off',
   },
 };

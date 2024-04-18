@@ -28,7 +28,8 @@
         "noExtraBooleanCast": "error",
         "noUselessLabel": "error",
         "noUselessRename": "error",
-        "useLiteralKeys": "error"
+        "useLiteralKeys": "error",
+        "noWith": "error"
       },
       "correctness": {
         "noChildrenProp": "error",
