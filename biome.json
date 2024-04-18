@@ -44,7 +44,8 @@
         "noUselessEmptyExport": "error",
         "useOptionalChain": "error",
         "noUselessLoneBlockStatements": "error",
-        "noUselessFragments": "error"
+        "noUselessFragments": "error",
+        "noUselessTernary": "error"
       },
       "correctness": {
         "noUnreachable": "error",
@@ -90,9 +91,6 @@
       "a11y": {
         "noBlankTarget": "error",
         "useButtonType": "error"
-      },
-      "nursery": {
-        "noUselessTernary": "error"
       }
     }
   },

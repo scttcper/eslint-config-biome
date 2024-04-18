@@ -19,15 +19,19 @@ jobs:
       - uses: actions/checkout@master
         with:
           fetch-depth: 0
+
       - uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 9
+
       - uses: actions/setup-node@master
         with:
           node-version: 21
           cache: 'pnpm'
+
       - name: install dependencies
         run: pnpm install
+
       - name: release
         run: npx semantic-release
         env:
