@@ -83,7 +83,9 @@
         "useForOf": "error",
         "useShorthandAssign": "error",
         "useShorthandFunctionType": "error",
-        "noParameterProperties": "error"
+        "noParameterProperties": "error",
+        "noVar": "error",
+        "noUselessElse": "error"
       },
       "security": {
         "noGlobalEval": "error",

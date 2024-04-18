@@ -58,6 +58,8 @@ module.exports = {
     '@typescript-eslint/no-dupe-class-members': 'off',
     '@typescript-eslint/parameter-properties': 'off',
     'no-with': 'off',
+    'no-var': 'off',
+    'no-else-return': 'off',
 
     // formatting conflict
     'array-element-newline': 'off',
