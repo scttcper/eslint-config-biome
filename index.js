@@ -51,6 +51,13 @@ module.exports = {
     'no-dupe-args': 'off',
     'no-empty': 'off',
     '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
+    'no-compare-neg-zero': 'off',
+    'no-labels': 'off',
+    'no-sparse-array': 'off',
+    eqeqeq: 'off',
+    '@typescript-eslint/no-dupe-class-members': 'off',
+    '@typescript-eslint/parameter-properties': 'off',
 
     // formatting conflict
     'array-element-newline': 'off',

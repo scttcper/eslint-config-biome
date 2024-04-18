@@ -81,7 +81,8 @@
         "useExportType": "error",
         "useForOf": "error",
         "useShorthandAssign": "error",
-        "useShorthandFunctionType": "error"
+        "useShorthandFunctionType": "error",
+        "noParameterProperties": "error"
       },
       "security": {
         "noGlobalEval": "error",
@@ -117,7 +118,12 @@
         "noUnsafeNegation": "error",
         "noDuplicateParameters": "error",
         "noEmptyBlockStatements": "error",
-        "noEmptyInterface": "error"
+        "noEmptyInterface": "error",
+        "noCompareNegZero": "error",
+        "noConfusingLabels": "error",
+        "noSparseArray": "error",
+        "noDoubleEquals": "error",
+        "noDuplicateClassMembers": "error"
       }
     }
   },
