@@ -55,7 +55,8 @@
         "noInvalidNewBuiltin": "error",
         "noNonoctalDecimalEscape": "error",
         "noPrecisionLoss": "error",
-        "noSwitchDeclarations": "error"
+        "noSwitchDeclarations": "error",
+        "useJsxKeyInIterable": "error"
       },
       "style": {
         "noCommaOperator": "error",
