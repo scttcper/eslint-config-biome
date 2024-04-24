@@ -56,7 +56,6 @@ module.exports = {
     'no-sparse-arrays': 'off',
     eqeqeq: 'off',
     '@typescript-eslint/no-dupe-class-members': 'off',
-    '@typescript-eslint/parameter-properties': 'off',
     'no-with': 'off',
     'no-var': 'off',
     'no-else-return': 'off',

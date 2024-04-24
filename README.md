@@ -5,7 +5,7 @@ Not really a shareable eslint config, more of a set of rules and eslint all toge
 Extends from [xo](https://github.com/xojs/eslint-config-xo) and [xo-typescript](https://github.com/xojs/eslint-config-xo-typescript) and disables a few rules.
 
 ```sh
-npm i @ctrl/eslint-config-biome -D
+npm i @biomejs/biome @ctrl/eslint-config-biome -D
 ```
 
 .eslintrc
@@ -16,5 +16,17 @@ npm i @ctrl/eslint-config-biome -D
     "node": true,
   },
   "extends": ["@ctrl/eslint-config-biome"]
+}
+```
+
+biome.json
+```json
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "ignoreUnknown": true,
+    "ignore": ["dist/*", "package.json"]
+  },
+  "extends": ["@ctrl/eslint-config-biome/biome"]
 }
 ```
