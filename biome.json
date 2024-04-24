@@ -77,7 +77,7 @@
         "noNegationElse": "error",
         "useConsistentArrayType": {
           "level": "error",
-          "options": {"syntax": "shorthand"}
+          "options": { "syntax": "shorthand" }
         },
         "useDefaultParameterLast": "error",
         "useExportType": "error",
