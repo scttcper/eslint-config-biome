@@ -60,7 +60,7 @@
       },
       "style": {
         "noCommaOperator": "error",
-        "noImplicitBoolean": "error",
+        "noImplicitBoolean": "off",
         "noInferrableTypes": "error",
         "noNamespace": "error",
         "noRestrictedGlobals": "error",
