@@ -120,7 +120,7 @@
         "useValidTypeof": "error",
         "noUnsafeNegation": "error",
         "noDuplicateParameters": "error",
-        "noEmptyBlockStatements": "error",
+        "noEmptyBlockStatements": "off",
         "noEmptyInterface": "error",
         "noCompareNegZero": "error",
         "noConfusingLabels": "error",
