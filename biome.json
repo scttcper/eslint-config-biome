@@ -56,7 +56,8 @@
         "noNonoctalDecimalEscape": "error",
         "noPrecisionLoss": "error",
         "noSwitchDeclarations": "error",
-        "useJsxKeyInIterable": "error"
+        "useJsxKeyInIterable": "error",
+        "noEmptyPattern": "error"
       },
       "style": {
         "noCommaOperator": "error",
@@ -120,13 +121,19 @@
         "useValidTypeof": "error",
         "noUnsafeNegation": "error",
         "noDuplicateParameters": "error",
-        "noEmptyBlockStatements": "off",
+        "noEmptyBlockStatements": "error",
         "noEmptyInterface": "error",
         "noCompareNegZero": "error",
         "noConfusingLabels": "error",
         "noSparseArray": "error",
         "noDoubleEquals": "error",
-        "noDuplicateClassMembers": "error"
+        "noDuplicateClassMembers": "error",
+        "noLabelVar": "error",
+        "noDuplicateCase": "error"
+      },
+      "nursery": {
+        "useConsistentBuiltinInstantiation": "error",
+        "noUselessStringConcat": "error"
       }
     }
   },

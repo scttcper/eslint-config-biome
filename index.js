@@ -59,6 +59,12 @@ module.exports = {
     'no-with': 'off',
     'no-var': 'off',
     'no-else-return': 'off',
+    'no-empty-pattern': 'off',
+    'no-new-wrappers': 'off',
+    'no-label-var': 'off',
+    'no-duplicate-case': 'off',
+    'no-useless-concat': 'off',
+    'no-empty-static-block': 'off',
 
     // formatting conflict
     'array-element-newline': 'off',
