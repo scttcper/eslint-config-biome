@@ -20,17 +20,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: pnpm/action-setup@v3
-        with:
-          version: 9
-
-      - uses: actions/setup-node@master
-        with:
-          node-version: 22
-          cache: 'pnpm'
-
-      - name: install dependencies
-        run: pnpm install
+      - uses: wyvox/action-setup-pnpm@v3
+        with: { node-version: 22, pnpm-version: 9 }
 
       - name: release
         run: npx semantic-release

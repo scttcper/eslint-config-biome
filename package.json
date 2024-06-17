@@ -3,23 +3,25 @@
   "version": "0.0.0-placeholder",
   "description": "eslint typescript config",
   "scripts": {
-    "test": "biome check ."
+    "test": "biome check . && eslint ."
   },
   "exports": {
-    ".": "./index.js",
+    ".": "./index.mjs",
     "./biome": "./biome.json"
   },
   "files": ["index.js", "biome.json"],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.12.0",
-    "@typescript-eslint/parser": "^7.12.0",
-    "eslint": "^8.57.0",
-    "eslint-config-xo": "^0.45.0",
-    "eslint-config-xo-typescript": "^4.0.0",
-    "eslint-plugin-simple-import-sort": "^12.1.0"
+    "@eslint/js": "^9.5.0",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "typescript-eslint": "^7.13.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.1"
+    "@biomejs/biome": "1.8.1",
+    "@types/eslint__js": "8.42.3",
+    "@sindresorhus/tsconfig": "5.0.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.5.0",
+    "typescript": "5.4.5"
   },
   "repository": "scttcper/eslint-config-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",

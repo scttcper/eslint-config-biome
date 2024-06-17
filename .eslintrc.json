@@ -3,7 +3,7 @@
   "env": {
     "node": true
   },
-  "extends": ["@ctrl/eslint-config-biome", "@ctrl/eslint-config-react-biome"],
+  "extends": ["@ctrl/eslint-config-biome"],
   "rules": {
     "@typescript-eslint/restrict-plus-operands": "off",
     "no-await-in-loop": "off",
