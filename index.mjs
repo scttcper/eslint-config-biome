@@ -91,13 +91,6 @@ const tsEslintConfig = tseslint.config(
       '@typescript-eslint/class-literal-property-style': ['error', 'getters'],
       '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
       '@typescript-eslint/consistent-indexed-object-style': ['error'],
-      '@typescript-eslint/comma-spacing': [
-        'error',
-        {
-          before: false,
-          after: true,
-        },
-      ],
       '@typescript-eslint/consistent-type-assertions': [
         'error',
         {
