@@ -4,8 +4,6 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-console.log(tseslint.configs.recommended);
-
 const tsEslintConfig = tseslint.config(
   {
     plugins: { '@typescript-eslint': typescriptEslint },
