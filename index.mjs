@@ -91,13 +91,6 @@ const tsEslintConfig = tseslint.config(
       '@typescript-eslint/class-literal-property-style': ['error', 'getters'],
       '@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
       '@typescript-eslint/consistent-indexed-object-style': ['error'],
-      '@typescript-eslint/brace-style': [
-        'error',
-        '1tbs',
-        {
-          allowSingleLine: false,
-        },
-      ],
       '@typescript-eslint/comma-spacing': [
         'error',
         {
@@ -114,30 +107,6 @@ const tsEslintConfig = tseslint.config(
       ],
       '@typescript-eslint/func-call-spacing': ['error', 'never'],
       '@typescript-eslint/keyword-spacing': ['error'],
-      '@typescript-eslint/lines-between-class-members': [
-        'error',
-        'always',
-        {
-          exceptAfterSingleLine: true,
-          exceptAfterOverload: true,
-        },
-      ],
-
-      '@typescript-eslint/member-delimiter-style': [
-        'error',
-        {
-          multiline: {
-            delimiter: 'semi',
-            requireLast: true,
-          },
-
-          singleline: {
-            delimiter: 'semi',
-            requireLast: false,
-          },
-        },
-      ],
-
       '@typescript-eslint/member-ordering': [
         'error',
         {
@@ -194,7 +163,6 @@ const tsEslintConfig = tseslint.config(
       '@typescript-eslint/no-duplicate-enum-values': ['error'],
       '@typescript-eslint/no-duplicate-type-constituents': ['error'],
       '@typescript-eslint/no-dynamic-delete': ['error'],
-      '@typescript-eslint/no-extra-semi': ['error'],
       '@typescript-eslint/no-loop-func': ['error'],
       '@typescript-eslint/no-for-in-array': ['error'],
       '@typescript-eslint/no-meaningless-void-operator': ['error'],
@@ -240,14 +208,6 @@ const tsEslintConfig = tseslint.config(
       '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
       '@typescript-eslint/no-unsafe-enum-comparison': ['error'],
       '@typescript-eslint/no-unused-expressions': ['error'],
-      '@typescript-eslint/padding-line-between-statements': [
-        'error',
-        {
-          blankLine: 'always',
-          prev: 'multiline-block-like',
-          next: '*',
-        },
-      ],
       '@typescript-eslint/no-var-requires': ['error'],
       '@typescript-eslint/non-nullable-type-assertion-style': ['error'],
       '@typescript-eslint/parameter-properties': [
@@ -278,17 +238,6 @@ const tsEslintConfig = tseslint.config(
           ignoreStringArrays: true,
         },
       ],
-      '@typescript-eslint/space-before-function-paren': [
-        'error',
-        {
-          anonymous: 'always',
-          named: 'never',
-          asyncArrow: 'always',
-        },
-      ],
-      '@typescript-eslint/space-infix-ops': ['error'],
-      '@typescript-eslint/semi': ['error', 'always'],
-      '@typescript-eslint/space-before-blocks': ['error', 'always'],
       '@typescript-eslint/switch-exhaustiveness-check': [
         'error',
         {
@@ -306,7 +255,6 @@ const tsEslintConfig = tseslint.config(
         },
       ],
 
-      '@typescript-eslint/type-annotation-spacing': ['error'],
       '@typescript-eslint/prefer-regexp-exec': ['error'],
       '@typescript-eslint/prefer-return-this-type': ['error'],
 
@@ -318,7 +266,6 @@ const tsEslintConfig = tseslint.config(
       ],
       'no-dupe-else-if': ['error'],
       'no-invalid-regexp': ['error'],
-      'no-irregular-whitespace': ['error'],
       'no-promise-executor-return': ['error'],
       'no-template-curly-in-string': ['error'],
       'no-unreachable-loop': ['error'],
@@ -344,7 +291,6 @@ const tsEslintConfig = tseslint.config(
       ],
 
       'block-scoped-var': ['error'],
-      'dot-location': ['error', 'property'],
       'grouped-accessor-pairs': ['error', 'getBeforeSet'],
       'guard-for-in': ['error'],
       'no-alert': ['error'],
@@ -352,12 +298,10 @@ const tsEslintConfig = tseslint.config(
       'no-eq-null': ['error'],
       'no-extend-native': ['error'],
       'no-extra-bind': ['error'],
-      'no-floating-decimal': ['error'],
       'no-implicit-coercion': ['error'],
       'no-implicit-globals': ['error'],
       'no-implied-eval': ['error'],
       'no-iterator': ['error'],
-      'no-multi-spaces': ['error'],
       'no-multi-str': ['error'],
       'no-new-func': ['error'],
       'no-object-constructor': ['error'],
@@ -373,52 +317,16 @@ const tsEslintConfig = tseslint.config(
       'no-useless-escape': ['error'],
       'no-useless-return': ['error'],
       radix: ['error'],
-
-      'wrap-iife': [
-        'error',
-        'inside',
-        {
-          functionPrototypeMethods: true,
-        },
-      ],
-
       yoda: ['error'],
       'no-delete-var': ['error'],
       'no-undef-init': ['error'],
       'no-buffer-constructor': ['error'],
-      'array-bracket-newline': ['error', 'consistent'],
-      'array-bracket-spacing': ['error', 'never'],
-      'comma-style': ['error', 'last'],
-
-      'computed-property-spacing': [
-        'error',
-        'never',
-        {
-          enforceForClassMembers: true,
-        },
-      ],
-
-      'eol-last': ['error'],
-
       'func-name-matching': [
         'error',
         {
           considerPropertyDescriptor: true,
         },
       ],
-
-      'function-call-argument-newline': ['error', 'consistent'],
-
-      'key-spacing': [
-        'error',
-        {
-          beforeColon: false,
-          afterColon: true,
-        },
-      ],
-
-      'linebreak-style': ['error', 'unix'],
-
       'logical-assignment-operators': [
         'error',
         'always',
@@ -426,10 +334,8 @@ const tsEslintConfig = tseslint.config(
           enforceForIfStatements: true,
         },
       ],
-
       'max-depth': ['warn'],
       'max-nested-callbacks': ['warn', 4],
-
       'max-params': [
         'warn',
         {
@@ -448,35 +354,12 @@ const tsEslintConfig = tseslint.config(
         },
       ],
 
-      'new-parens': ['error'],
       'no-bitwise': ['error'],
       'no-multi-assign': ['error'],
       'one-var-declaration-per-line': ['error'],
-
-      'padded-blocks': [
-        'error',
-        'never',
-        {
-          allowSingleLineBlocks: false,
-        },
-      ],
-
       'prefer-object-spread': ['error'],
-      'quote-props': ['error', 'as-needed'],
-      'template-tag-spacing': ['error', 'never'],
       'unicode-bom': ['error', 'never'],
       'arrow-body-style': ['error'],
-      'arrow-parens': ['error', 'as-needed'],
-
-      'arrow-spacing': [
-        'error',
-        {
-          before: true,
-          after: true,
-        },
-      ],
-
-      'generator-star-spacing': ['error', 'both'],
       'no-constant-binary-expression': ['error'],
 
       'no-useless-computed-key': [
@@ -514,9 +397,7 @@ const tsEslintConfig = tseslint.config(
 
       'prefer-object-has-own': ['error'],
       'prefer-spread': ['error'],
-      'rest-spread-spacing': ['error', 'never'],
       'symbol-description': ['error'],
-      'template-curly-spacing': ['error'],
     },
   },
   {
