@@ -4,9 +4,12 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
+console.log(tseslint.configs.recommended);
+
 const tsEslintConfig = tseslint.config(
   {
     plugins: { '@typescript-eslint': typescriptEslint },
+    files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts'],
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -1139,6 +1142,16 @@ const tsEslintConfig = tseslint.config(
     plugins: {
       'simple-import-sort': simpleImportSort,
     },
+    files: [
+      '**/*.ts',
+      '**/*.tsx',
+      '**/*.mts',
+      '**/*.cts',
+      '**/*.mjs',
+      '**/*.cjs',
+      '**/*.js',
+      '**/*.jsx',
+    ],
     rules: {
       'simple-import-sort/imports': [
         'error',
