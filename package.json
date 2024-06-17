@@ -9,7 +9,7 @@
     ".": "./index.mjs",
     "./biome": "./biome.json"
   },
-  "files": ["index.js", "biome.json"],
+  "files": ["index.mjs", "biome.json"],
   "dependencies": {
     "@eslint/js": "^9.5.0",
     "eslint-plugin-simple-import-sort": "^12.1.0",
