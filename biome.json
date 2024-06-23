@@ -144,7 +144,6 @@
         "useImportExtensions": "error",
         "noConsole": "error",
         "noMisplacedAssertion": "error",
-        "noUndeclaredDependencies": "error",
         "useErrorMessage": "error",
         "useThrowNewError": "error",
         "useThrowOnlyError": "error"
