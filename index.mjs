@@ -12,6 +12,7 @@ const tsEslintConfig = tseslint.config(
       parser: tsParser,
       parserOptions: {
         project: './tsconfig.json',
+        warnOnUnsupportedTypeScriptVersion: false,
       },
       globals: {
         ...globals.node,
