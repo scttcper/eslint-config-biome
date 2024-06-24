@@ -311,7 +311,6 @@ const tsEslintConfig = tseslint.config(
       'no-useless-escape': ['error'],
       'no-useless-return': ['error'],
       radix: ['error'],
-      yoda: ['error'],
       'no-delete-var': ['error'],
       'no-undef-init': ['error'],
       'no-buffer-constructor': ['error'],

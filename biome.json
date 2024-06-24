@@ -146,7 +146,8 @@
         "noMisplacedAssertion": "error",
         "useErrorMessage": "error",
         "useThrowNewError": "error",
-        "useThrowOnlyError": "error"
+        "useThrowOnlyError": "error",
+        "noYodaExpression": "error"
       }
     }
   },
