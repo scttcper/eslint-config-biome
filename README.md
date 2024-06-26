@@ -5,18 +5,26 @@ Not really a shareable eslint config, more of a set of rules and eslint all toge
 Based on [xo](https://github.com/xojs/eslint-config-xo) and [xo-typescript](https://github.com/xojs/eslint-config-xo-typescript) and disables rules that are in biome are I found annoying.
 
 ```sh
-npm i @biomejs/biome @ctrl/eslint-config-biome -D
+npm i @biomejs/biome @ctrl/eslint-config-biome @eslint/compat eslint -D
 ```
 
-.eslintrc
-```json
-{
-  "root": true,
-  "env": {
-    "node": true,
+eslint.config.mjs
+```js
+import config from '@ctrl/eslint-config-biome';
+import { includeIgnoreFile } from '@eslint/compat';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const gitignorePath = path.resolve(__dirname, '.gitignore');
+
+export default [
+  includeIgnoreFile(gitignorePath),
+  {
+    ignores: ['tailwind.config.cjs', 'postcss.config.cjs', 'eslint.config.mjs', 'vite.config.ts'],
   },
-  "extends": ["@ctrl/eslint-config-biome"]
-}
+];
 ```
 
 biome.json
