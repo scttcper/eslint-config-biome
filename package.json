@@ -16,17 +16,17 @@
   },
   "files": ["index.mjs", "biome.json", "index.d.ts"],
   "dependencies": {
-    "@eslint/js": "^9.5.0",
-    "eslint-plugin-simple-import-sort": "^12.1.0",
-    "typescript-eslint": "^7.14.1"
+    "@eslint/js": "^9.6.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "typescript-eslint": "^7.15.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.2",
+    "@biomejs/biome": "1.8.3",
     "@types/eslint__js": "8.42.3",
-    "@sindresorhus/tsconfig": "5.1.0",
-    "eslint": "^9.5.0",
-    "globals": "^15.6.0",
-    "typescript": "5.5.2"
+    "@sindresorhus/tsconfig": "6.0.0",
+    "eslint": "^9.6.0",
+    "globals": "^15.8.0",
+    "typescript": "5.5.3"
   },
   "repository": "scttcper/eslint-config-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",
