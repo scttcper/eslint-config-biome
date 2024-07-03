@@ -141,7 +141,6 @@
       "nursery": {
         "useConsistentBuiltinInstantiation": "error",
         "noUselessStringConcat": "error",
-        "noConsole": "error",
         "noMisplacedAssertion": "error",
         "useErrorMessage": "error",
         "useThrowNewError": "error",
