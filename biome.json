@@ -34,7 +34,7 @@
         "noWith": "error",
         "useArrowFunction": "error",
         "useFlatMap": "error",
-        "useLiteralKeys": "error",
+        "useLiteralKeys": "off",
         "useOptionalChain": "error",
         "useRegexLiterals": "error"
       },
