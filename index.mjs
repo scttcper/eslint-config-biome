@@ -216,7 +216,14 @@ const tsEslintConfig = tseslint.config(
       '@typescript-eslint/prefer-readonly': ['error'],
       '@typescript-eslint/prefer-reduce-type-parameter': ['error'],
       '@typescript-eslint/prefer-string-starts-ends-with': ['error'],
-      '@typescript-eslint/prefer-ts-expect-error': ['error'],
+      '@typescript-eslint/ban-ts-comment': [
+        'error',
+        {
+          'ts-expect-error': 'allow-with-description',
+          minimumDescriptionLength: 4,
+        },
+      ],
+      '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
       '@typescript-eslint/restrict-template-expressions': [
         'error',
         {
