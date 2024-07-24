@@ -21,7 +21,6 @@ const tsEslintConfig = tseslint.config(
       sourceType: 'module',
     },
     rules: {
-      '@typescript-eslint/no-empty-object-type': ['error'],
       '@typescript-eslint/no-unsafe-function-type': ['error'],
       '@typescript-eslint/no-wrapper-object-types': ['error'],
       '@typescript-eslint/adjacent-overload-signatures': ['error'],
