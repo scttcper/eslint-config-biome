@@ -294,7 +294,6 @@ const tsEslintConfig = tseslint.config(
       'one-var-declaration-per-line': ['error'],
       'prefer-object-spread': ['error'],
       'unicode-bom': ['error', 'never'],
-      'arrow-body-style': ['error'],
       'no-constant-binary-expression': ['error'],
 
       'no-useless-computed-key': [
