@@ -262,13 +262,6 @@ const tsEslintConfig = tseslint.config(
           considerPropertyDescriptor: true,
         },
       ],
-      'logical-assignment-operators': [
-        'error',
-        'always',
-        {
-          enforceForIfStatements: true,
-        },
-      ],
       'max-depth': ['warn'],
       'max-nested-callbacks': ['warn', 4],
       'max-params': [
