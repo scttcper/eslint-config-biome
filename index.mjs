@@ -1,11 +1,26 @@
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
+import tsParser from '@typescript-eslint/parser';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
+import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 const tsEslintConfig = tseslint.config(
   {
     plugins: { '@typescript-eslint': typescriptEslint },
     files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts'],
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        projectService: true,
+        ecmaFeatures: { modules: true },
+        ecmaVersion: 'latest',
+        project: './tsconfig.json',
+      },
+      globals: {
+        ...globals.node,
+      },
+      sourceType: 'module',
+    },
     rules: {
       '@typescript-eslint/no-unsafe-function-type': ['error'],
       '@typescript-eslint/no-wrapper-object-types': ['error'],
