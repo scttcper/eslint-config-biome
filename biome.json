@@ -36,7 +36,8 @@
         "useFlatMap": "error",
         "useLiteralKeys": "off",
         "useOptionalChain": "error",
-        "useRegexLiterals": "error"
+        "useRegexLiterals": "error",
+        "noUselessStringConcat": "error"
       },
       "correctness": {
         "noChildrenProp": "error",
@@ -93,7 +94,11 @@
         "useShorthandAssign": "error",
         "useShorthandFunctionType": "error",
         "noVar": "error",
-        "noUselessElse": "error"
+        "noUselessElse": "error",
+        "useConsistentBuiltinInstantiation": "error",
+        "useThrowNewError": "error",
+        "useThrowOnlyError": "error",
+        "noYodaExpression": "error"
       },
       "security": {
         "noGlobalEval": "error",
@@ -136,16 +141,9 @@
         "noDoubleEquals": "error",
         "noDuplicateClassMembers": "error",
         "noLabelVar": "error",
-        "noDuplicateCase": "error"
-      },
-      "nursery": {
-        "useConsistentBuiltinInstantiation": "error",
-        "noUselessStringConcat": "error",
+        "noDuplicateCase": "error",
         "noMisplacedAssertion": "error",
-        "useErrorMessage": "error",
-        "useThrowNewError": "error",
-        "useThrowOnlyError": "error",
-        "noYodaExpression": "error"
+        "useErrorMessage": "error"
       }
     }
   },
