@@ -18,10 +18,10 @@
   "dependencies": {
     "@eslint/js": "^9.10.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "typescript-eslint": "^8.5.0"
+    "typescript-eslint": "^8.6.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.3",
+    "@biomejs/biome": "1.9.1",
     "@types/eslint__js": "8.42.3",
     "@sindresorhus/tsconfig": "6.0.0",
     "eslint": "^9.10.0",
