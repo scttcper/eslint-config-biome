@@ -90,6 +90,7 @@
         },
         "useDefaultParameterLast": "error",
         "useExportType": "error",
+        "useImportType": "error",
         "useForOf": "error",
         "useShorthandAssign": "error",
         "useShorthandFunctionType": "error",

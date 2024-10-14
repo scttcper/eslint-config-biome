@@ -15,6 +15,7 @@ const tsEslintConfig = tseslint.config(
         ecmaFeatures: { modules: true },
         ecmaVersion: 'latest',
         project: './tsconfig.json',
+        warnOnUnsupportedTypeScriptVersion: false,
       },
       globals: {
         ...globals.node,
