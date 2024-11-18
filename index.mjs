@@ -123,7 +123,6 @@ const tsEslintConfig = tseslint.config(
       '@typescript-eslint/no-unnecessary-type-arguments': ['error'],
       '@typescript-eslint/no-unnecessary-type-assertion': ['error'],
       '@typescript-eslint/no-unsafe-enum-comparison': ['error'],
-      '@typescript-eslint/no-unused-expressions': ['error'],
       '@typescript-eslint/no-var-requires': ['error'],
       '@typescript-eslint/non-nullable-type-assertion-style': ['error'],
       '@typescript-eslint/parameter-properties': [
