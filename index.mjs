@@ -1,5 +1,6 @@
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
+import importPlugin from 'eslint-plugin-import';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
@@ -344,6 +345,24 @@ const tsEslintConfig = tseslint.config(
           ],
         },
       ],
+    },
+  },
+  {
+    plugins: {
+      import: importPlugin,
+    },
+    files: [
+      '**/*.ts',
+      '**/*.tsx',
+      '**/*.mts',
+      '**/*.cts',
+      '**/*.mjs',
+      '**/*.cjs',
+      '**/*.js',
+      '**/*.jsx',
+    ],
+    rules: {
+      'import/no-duplicates': ['error', { 'prefer-inline': true }],
     },
   },
 );

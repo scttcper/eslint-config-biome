@@ -14,18 +14,23 @@
       "import": "./biome.json"
     }
   },
-  "files": ["index.mjs", "biome.json", "index.d.ts"],
+  "files": [
+    "index.mjs",
+    "biome.json",
+    "index.d.ts"
+  ],
   "dependencies": {
     "@eslint/js": "^9.17.0",
+    "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "typescript-eslint": "^8.18.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/eslint__js": "8.42.3",
     "@sindresorhus/tsconfig": "7.0.0",
+    "@types/eslint__js": "8.42.3",
     "eslint": "^9.17.0",
-    "globals": "^15.13.0",
+    "globals": "^15.14.0",
     "typescript": "5.7.2"
   },
   "repository": "scttcper/eslint-config-biome",
@@ -36,6 +41,8 @@
     "provenance": true
   },
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   }
 }
