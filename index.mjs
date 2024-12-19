@@ -362,7 +362,7 @@ const tsEslintConfig = tseslint.config(
       '**/*.jsx',
     ],
     rules: {
-      'import/no-duplicates': ['error', { 'prefer-inline': true }],
+      'import/no-duplicates': ['error', { considerQueryString: true }],
     },
   },
 );
