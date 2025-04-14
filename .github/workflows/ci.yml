@@ -21,7 +21,7 @@ jobs:
           fetch-depth: 0
 
       - uses: wyvox/action-setup-pnpm@v3
-        with: { node-version: 22, pnpm-version: 10 }
+        with: { node-version: 23 }
 
       - name: release
         run: npx semantic-release

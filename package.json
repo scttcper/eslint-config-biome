@@ -20,17 +20,17 @@
     "index.d.ts"
   ],
   "dependencies": {
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.24.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "typescript-eslint": "^8.29.0"
+    "typescript-eslint": "^8.29.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@sindresorhus/tsconfig": "7.0.0",
-    "eslint": "^9.23.0",
+    "eslint": "^9.24.0",
     "globals": "^16.0.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "repository": "scttcper/eslint-config-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",
@@ -48,5 +48,6 @@
     "onlyBuiltDependencies": [
       "@biomejs/biome"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.8.0"
 }
