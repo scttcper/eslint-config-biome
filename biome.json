@@ -3,6 +3,10 @@
   "organizeImports": {
     "enabled": false
   },
+  "files": {
+    "ignoreUnknown": true,
+    "ignore": ["package.json"]
+  },
   "linter": {
     "enabled": true,
     "rules": {
