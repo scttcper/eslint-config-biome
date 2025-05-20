@@ -20,6 +20,7 @@ const __dirname = path.dirname(__filename);
 const gitignorePath = path.resolve(__dirname, '.gitignore');
 
 export default [
+  ...config,
   includeIgnoreFile(gitignorePath),
   {
     ignores: ['tailwind.config.cjs', 'postcss.config.cjs', 'eslint.config.mjs', 'vite.config.ts'],
