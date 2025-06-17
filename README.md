@@ -39,3 +39,30 @@ biome.json
   "extends": ["@ctrl/eslint-config-biome/biome"]
 }
 ```
+
+possible to use biome to organize imports?
+
+```json
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": {
+          "level": "on",
+          "options": {
+            "groups": [
+              [":SIDE_EFFECT:", ":URL:"],
+              ":BLANK_LINE:",
+              [":BUN:", ":NODE:"],
+              ":BLANK_LINE:",
+              ["**", "!@ctrl*", "!@ctrl/**", "!../**", "!./**"],
+              ":BLANK_LINE:",
+              ["@ctrl*", "@ctrl/**"],
+              ":BLANK_LINE:",
+              [":PATH:"]
+            ]
+          }
+        }
+      }
+    }
+  },
+```

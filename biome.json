@@ -1,18 +1,17 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "organizeImports": {
+  "assist": {
     "enabled": false
   },
   "files": {
     "ignoreUnknown": true,
-    "ignore": ["package.json"]
+    "includes": ["**", "!**/package.json"]
   },
   "linter": {
     "enabled": true,
     "rules": {
       "recommended": false,
       "a11y": {
-        "noBlankTarget": "error",
         "useButtonType": "error",
         "useHeadingContent": "error",
         "useHtmlLang": "error",
@@ -22,7 +21,6 @@
       },
       "complexity": {
         "noExtraBooleanCast": "error",
-        "noMultipleSpacesInRegularExpressionLiterals": "error",
         "noStaticOnlyClass": "error",
         "noUselessCatch": "error",
         "noUselessConstructor": "error",
@@ -35,13 +33,16 @@
         "noUselessThisAlias": "error",
         "noUselessTypeConstraint": "error",
         "noVoid": "error",
-        "noWith": "error",
         "useArrowFunction": "error",
         "useFlatMap": "error",
         "useLiteralKeys": "off",
         "useOptionalChain": "error",
         "useRegexLiterals": "error",
-        "noUselessStringConcat": "error"
+        "noUselessStringConcat": "error",
+        "noAdjacentSpacesInRegex": "error",
+        "noCommaOperator": "error",
+        "useNumericLiterals": "error",
+        "noArguments": "error"
       },
       "correctness": {
         "noChildrenProp": "error",
@@ -53,7 +54,6 @@
         "noGlobalObjectCalls": "error",
         "noInnerDeclarations": "error",
         "noInvalidConstructorSuper": "error",
-        "noInvalidNewBuiltin": "error",
         "noNonoctalDecimalEscape": "error",
         "noPrecisionLoss": "error",
         "noSelfAssign": "error",
@@ -69,10 +69,11 @@
         "useIsNan": "error",
         "useJsxKeyInIterable": "error",
         "useValidForDirection": "error",
-        "useYield": "error"
+        "useYield": "error",
+        "noInvalidBuiltinInstantiation": "error",
+        "useValidTypeof": "error"
       },
       "style": {
-        "noCommaOperator": "error",
         "noImplicitBoolean": "off",
         "noInferrableTypes": "error",
         "noNamespace": "error",
@@ -83,10 +84,8 @@
         "useConst": "error",
         "useExponentiationOperator": "error",
         "useLiteralEnumMembers": "error",
-        "useNumericLiterals": "error",
         "useSelfClosingElements": "error",
         "useSingleVarDeclarator": "error",
-        "noArguments": "error",
         "noNegationElse": "error",
         "useConsistentArrayType": {
           "level": "error",
@@ -98,7 +97,6 @@
         "useForOf": "error",
         "useShorthandAssign": "error",
         "useShorthandFunctionType": "error",
-        "noVar": "error",
         "noUselessElse": "error",
         "useConsistentBuiltinInstantiation": "error",
         "useThrowNewError": "error",
@@ -108,7 +106,8 @@
       "security": {
         "noGlobalEval": "error",
         "noDangerouslySetInnerHtml": "error",
-        "noDangerouslySetInnerHtmlWithChildren": "error"
+        "noDangerouslySetInnerHtmlWithChildren": "error",
+        "noBlankTarget": "error"
       },
       "suspicious": {
         "noAssignInExpressions": "error",
@@ -135,7 +134,6 @@
         "useDefaultSwitchClauseLast": "error",
         "useGetterReturn": "error",
         "useNamespaceKeyword": "error",
-        "useValidTypeof": "error",
         "noUnsafeNegation": "error",
         "noDuplicateParameters": "error",
         "noEmptyBlockStatements": "error",
@@ -148,7 +146,9 @@
         "noLabelVar": "error",
         "noDuplicateCase": "error",
         "noMisplacedAssertion": "error",
-        "useErrorMessage": "error"
+        "useErrorMessage": "error",
+        "noWith": "error",
+        "noVar": "error"
       }
     }
   },
